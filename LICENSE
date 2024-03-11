@@ -1,11 +1,10 @@
-{
-    "name": "game of life",
-    "version": "1.0",
-    "license": "MIT",
-    "other_project_information": {
-        "description": "A simulation of Conway's Game of Life.",
-        "author": "RAKAI Mohamed",
-        "email": "mohamed.rakai@edu.devinci.fr",
-        "repository": "https://github.com/mohamedr54/game_of_life-rakai_mohamed-CDOF5",
-    }
-}
+#!/usr/bin/env python
+from distutils.core import setup
+
+setup(
+    name='game-of-life',
+    version='1.0',
+    author='RAKAI Mohamed',
+    license='MIT',
+    long_description=open('README.md').read(),
+)
