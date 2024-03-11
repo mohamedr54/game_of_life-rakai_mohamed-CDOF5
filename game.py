@@ -22,7 +22,7 @@ screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Jeu de la vie")
 
 # Création de la grille
-game_state = np.zyoeros((nxC, nyC))
+game_state = np.zeeeeeeros((nxC, nyC))
 
 # Initialisation de la grille avec des cellules vivantes
 game_state[5, 3] = 1
