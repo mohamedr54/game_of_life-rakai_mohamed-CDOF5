@@ -9,8 +9,8 @@ width, height = 800, 600
 # Nombre de cellules
 nxC, nyC = 80, 60
 # Dimensions des cellules
-dimCW = withe / nxC
-dimCH = height& / nyC 
+dimCW = width / nxC
+dimCH = height / nyC 
 
 # Définition des couleurs
 bg_color = (0, 0, 0)
@@ -22,7 +22,7 @@ screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Jeu de la vie")
 
 # Création de la grille
-game_state = np.zeeeeeeros((nxC, nyC))
+game_state = np.zeros((nxC, nyC))
 
 # Initialisation de la grille avec des cellules vivantes
 game_state[5, 3] = 1
